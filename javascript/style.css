@@ -1,0 +1,54 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(174,198,238,1) 28%, rgba(173,148,233,1) 71%);;
+}
+.clock{
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+    border-radius: 50%;
+    background-image: url(img/clock2.jpg);
+    background: linear-gradient(to right,skyblue);
+    border: 4px solid linear-gradient(90deg, rgba(174,198,238,1) 28%, rgba(173,148,233,1) 71%);;
+    margin: auto;
+    margin-top: 0.7%;
+}
+#hour,#min,#sec{
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    transform-origin: bottom;
+}
+#hour{
+    height: 25%;
+    width:1.8%;
+    top: 18%;
+    left: 48.95%;
+    opacity: 0.8;
+}
+#min{
+    height: 26%;
+    width: 1.6%;
+    top: 17%;
+    left: 48.95%;
+    opacity:0.8;
+}
+#sec{
+    height: 35%;
+    width: 1%;
+    top:8%;
+    left: 48.95%;
+    opacity: 0.8;
+}
+#time{
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 38%, rgba(148,187,233,1) 69%);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 30%;
+    margin-top: 0.5%;
+    margin-left: 35%;
+}
